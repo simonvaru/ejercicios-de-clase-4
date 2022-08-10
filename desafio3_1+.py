@@ -17,8 +17,7 @@ print(dedent("""
 
 valor3 = int(input("Ingrese respuesta: "))
 
-#if valor3 == 4 or valor3 != range(1:4): 
-if 1 > valor3 > 4:
+if valor3 not in range(1,5): 
     exit
     
 else:    
