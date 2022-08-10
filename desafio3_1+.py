@@ -7,7 +7,10 @@ def imprimir_resultado():
 valor1 = int(input("Ingrese primer numero: "))
 valor2 = int(input("Ingrese segundo numero: "))
 r = 0
-
+##
+valor_random = "borrar"
+##
+##
 print(dedent("""
       Ingrese 1 si desea sumar los dos valores.
       Ingrese 2 si desea restar al 1er valor el 2do numero.
