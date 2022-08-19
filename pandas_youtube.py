@@ -11,13 +11,13 @@ select_column = data["Weight"][4]
 select_row = data.iloc[1]["Weight"]
 print(f"\nDataframe Data original:\n{data}")
 
-# bmi = [] 
-# for i in range(len(data)):
-#     bmi_score = data["Weight"][i]/(data["Height"][i]**2)
-#     bmi.append(bmi_score)
+bmi = [] 
+for i in range(len(data)):
+    bmi_score = data["Weight"][i]/(data["Height"][i]**2)
+    bmi.append(bmi_score)
     
-# data["BMI"] = bmi
-# print(f"\nDataframe Data + BMI row:\n{data}")
+data["BMI"] = bmi
+print(f"\nDataframe Data + BMI row:\n{data}")
 
 # new_row = {"Name": "Belisario", "Height": 0.3, "Weight": 0.150}
 
